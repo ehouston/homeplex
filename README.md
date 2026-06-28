@@ -1,1 +1,13 @@
-
+# Server Design
+- Ubuntu Server 24.04
+- HP EliteDesk 800 G4 SFF i5-8500 3.00GHz, 8GB DDR4 RAM
+- 256GB SSD
+- Intel Quick Sync
+- LSI 9207-8e
+- EMC KTN-STL4
+- 3 SAS drives formatted with XFS filesystem
+- MergerFS + SnapRAID
+- Docker with bind mounts under /appdata
+- Docker configuration under /opt/plexstack
+- Local-only Plex server
+- Production-ready monitoring and backup
